@@ -1,0 +1,3 @@
+def prompt()
+	print "> "
+end	
