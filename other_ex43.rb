@@ -17,7 +17,7 @@ class Game
 		]
 		@start = start
 		puts "in init @start = " + @start.inspect
-	End
+	end
 
 	def	play()
 		puts "@start => " + @start.inspect
@@ -31,10 +31,10 @@ class Game
 
 	def start()
 		puts <<MESSAGE
-		"There is a haunted house up the road.
-		There is beleived to be an artifact of great value in the house...
-		But you will risk life and limb to get it!
-		Will you go and explore the house?"
+There is a haunted house up the road.
+There is beleived to be an artifact of great value in the house...
+But you will risk life and limb to get it!
+Will you go and explore the house?
 		MESSAGE
 
 		prompt()
@@ -42,7 +42,7 @@ class Game
 
 		if action =="yes"
 			return :dirt_road
-		elsif  actiom == "no"
+		elsif  action == "no"
 			puts "Ah well, maybe we'll play again someday."
 			Process.exit(0)
 		else
