@@ -16,7 +16,7 @@ def artifact_room()
 			puts "you have choose wisely. the spirits are pleased!"
 			puts "they will allow you clear passage out of the mansion"
 			puts "well done"
-			Proccess.exit(0)
+			Process.exit(0)
 		else
 			puts "Not choosing angers th spirits. you shall be punished!"
 			return :dead

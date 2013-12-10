@@ -1,5 +1,5 @@
 def take_a_break()
 	puts "why dont you have a rest?"
 	puts "the ghost's aren't quite sure what to do with you yet."
-	Proccess.exit(0)
+	Process.exit(0)
 end	

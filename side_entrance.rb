@@ -5,7 +5,7 @@ def side_entrance()
 	puts "Do you want to open the door or open the wardrobe?"
 	while true
 		prompt()
-		next_move = gets.chomp
+		next_move = gets.chomp()
 		if next_move == "open the wardrobe"
 			puts "a ghostly hand grabs you and pulls you into the wardrobe"
 			puts "you fall head first through a hole in the wardrobe."

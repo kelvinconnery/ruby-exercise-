@@ -1,11 +1,11 @@
-require "dirt_road.rb"
-require "arrive_at_house.rb"
-require "side_entrance.rb"
-require "parlor_room.rb"
-require "artifact_room.rb"
-require "dead.rb"
-require "take_a_break.rb"
-require "prompt.rb"
+require_relative "dirt_road.rb"
+require_relative "arrive_at_house.rb"
+require_relative "side_entrance.rb"
+require_relative "parlor_room.rb"
+require_relative "artifact_room.rb"
+require_relative "dead.rb"
+require_relative "take_a_break.rb"
+require_relative "prompt.rb"
 
 class Game
 	def initialize(start)
@@ -35,7 +35,7 @@ There is a haunted house up the road.
 There is beleived to be an artifact of great value in the house...
 But you will risk life and limb to get it!
 Will you go and explore the house?
-		MESSAGE
+MESSAGE
 
 		prompt()
 		action = gets.chomp()
