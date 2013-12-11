@@ -41,7 +41,8 @@ end
 
 post '/game' do 
 	action = "#{params[:action] || nil}"
-	# there is a bug here, can you fix it?
+	# there is a bug here, can you fix it? 
+	# yes i fix it in the view.
 	if session[:room]
 		session[:room] = session[:room].go(params[:action])
 	end
